@@ -3,12 +3,12 @@
 using namespace std;
 
 int main() {
-//Constance price of the items
-	const float balcony_seating = 50.00;
-	const float grand_tier_seating = 175.25;
-	const float loge_seating = 125.00;
-  const float mezzanine_seating = 100.00;
-  const float orchestra_seating = 230.50; 
+//Const price of the items
+const float balcony_seating = 50.00;
+const float grand_tier_seating = 175.25;
+const float loge_seating = 125.00;
+const float mezzanine_seating = 100.00;
+const float orchestra_seating = 230.50; 
   
 	
 
