@@ -21,8 +21,8 @@ int main() {
 
 	//User input
 	//quant short for quantity
-	int quant_balcony, quant_tier, quant_loge, quant_mezzanine; 
-	int quant_orchestra;
+	double quant_balcony, quant_tier, quant_loge, quant_mezzanine; 
+	double quant_orchestra;
 
 	//User input
 	cout << "Please input the total number of seats purchased for Balcony Seating > "; 
@@ -44,7 +44,7 @@ int main() {
 	sub_total_tier = (grand_tier_seating * quant_tier);
 	sub_total_loge = (loge_seating * quant_loge);
 	sub_total_mezzanine = (mezzanine_seating * quant_mezzanine);
-	sub_total_orchestra = (orchestra_seating * quant_orchestra);
+	sub_total_orchestra = (orchestra_seating * quant_orchestra);	
 
 
 	total_price = sub_total_balcony + sub_total_tier + sub_total_loge + sub_total_mezzanine + sub_total_orchestra;
